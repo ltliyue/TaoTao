@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_title_bar" />
+
+    <LinearLayout
+        android:layout_width="339.0dp"
+        android:layout_height="488.0dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20.0dp"
+        android:background="@drawable/bg_shop"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="20.0dp"
+        android:paddingTop="100.0dp" >
+
+        <TextView
+            android:id="@+id/biaoti"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="8.0dp"
+            android:text="店铺名称："
+            android:textColor="#88000000"
+            android:textSize="17.0sp" />
+
+        <TextView
+            android:id="@+id/gonggao"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dp"
+            android:padding="8.0dp"
+            android:text="店铺公告："
+            android:textColor="#88000000"
+            android:textSize="17.0sp" />
+
+        <TextView
+            android:id="@+id/miaoshu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dp"
+            android:padding="8.0dp"
+            android:text="店铺描述："
+            android:textColor="#88000000"
+            android:textSize="17.0sp" />
+    </LinearLayout>
+
+</LinearLayout>

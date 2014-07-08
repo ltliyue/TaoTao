@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ALiebiaoActivity!</string>
+    <string name="app_name">ALiebiao</string>
+    <string-array name="countries_array">
+        <item>未处理的订单</item>
+        <item>已关闭的订单</item>
+        <item>成功的订单</item>
+        <item>失败的订单</item></string-array>  
+
+</resources>

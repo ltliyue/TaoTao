@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AJiemian1Activity!</string>
+    <string name="app_name">淘淘助理</string>
+    <string name="about">关于</string>
+    <string name="exit">退出</string>
+    <string-array name="baibei_array">
+        <item>出售中的宝贝 </item>
+        <item>仓库中的宝贝</item>
+        <item>橱窗推荐</item>
+        <item>搜索宝贝</item>
+       </string-array> 
+    <string-array name="dingdan_array">
+        <item>等待买家付款</item>
+        <item>等待发货</item>
+        <item>等待买家确认收货</item>
+        <item>成功的订单</item>
+        <item>失败的订单</item>
+        <item>退款的订单</item>
+        </string-array>  
+    <string-array name="fahuo_array">
+        <item>等待发货</item>
+        <item>正在发货</item>
+        <item>已经发货</item>
+        <item>物流公司</item>
+    </string-array> 
+    <string-array name="wait_array">
+        <item>名称</item>
+        <item>价格</item>
+        <item>件数</item>
+        <item>收货人</item>
+        <item>联系电话</item>
+        <item>收货地址</item>
+        <item>详细信息</item>
+    </string-array> 
+    <string-array name="ing_array">
+        <item>名称</item>
+        <item>价格</item>
+        <item>件数</item>
+        <item>收货人</item>
+        <item>联系电话</item>
+        <item>收货地址</item>
+        <item>详细信息</item>
+    </string-array> 
+     <string-array name="already_array">
+        <item>名称</item>
+        <item>价格</item>
+        <item>件数</item>
+        <item>收货人</item>
+        <item>联系电话</item>
+        <item>收货地址</item>
+        <item>详细信息</item>
+    </string-array> 
+    <string-array name="conent_array">
+        <item>顾客1</item>
+        <item>顾客2</item>
+        <item>顾客3</item>
+        <item>顾客4</item></string-array> 
+       
+    <string-array name="count_array">
+        <item>来自买家的评价</item>
+        <item>收到的好评</item>
+        <item>收到的中评</item>
+        <item>收到的差评</item>
+        <item>我的店铺信用</item>
+        </string-array>
+
+</resources>

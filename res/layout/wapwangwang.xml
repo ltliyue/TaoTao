@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:background="#eeeeee"
+  >
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:background="@drawable/top"
+        android:gravity="center_vertical" >
+
+
+        <TextView
+            android:id="@+id/title_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:paddingLeft="25.0dip"
+            android:paddingRight="25.0dip"
+            android:singleLine="true"
+            android:text="阿里旺旺"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+    </RelativeLayout>
+
+  <WebView
+      android:id="@+id/wapwangwang"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:layout_weight="0.46" />
+
+<RelativeLayout 
+        android:layout_width="fill_parent"
+		android:padding="4dp" 
+		android:layout_height="wrap_content"
+		android:background="@drawable/footer" 
+		android:layout_alignParentBottom="true"
+		>
+			<LinearLayout 
+			    android:layout_width="fill_parent"
+				android:orientation="horizontal" 
+				android:layout_height="wrap_content">
+	
+				<LinearLayout 
+				    android:id="@+id/addLayout"
+					android:layout_weight="1" 
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content" 
+					android:orientation="vertical"
+					android:gravity="center"
+					>
+						<ImageView 
+						    android:layout_height="wrap_content"
+							android:src="@drawable/back" 
+							android:layout_width="wrap_content">
+						</ImageView>
+						<TextView 
+						    android:layout_width="wrap_content"
+							android:layout_height="wrap_content" 
+							android:textColor="#FFFFFF"
+							android:textStyle="bold" 
+							android:textSize="13dp" 
+							android:text="返回">
+						</TextView>
+					</LinearLayout>
+	
+					
+	
+	
+					<LinearLayout 
+					    android:id="@+id/exitLayout"
+						android:layout_toRightOf="@+id/deleteLayout" 
+						android:layout_weight="1"
+						android:layout_width="fill_parent" 
+						android:layout_height="wrap_content"
+						android:orientation="vertical" 
+						android:gravity="center">
+						<ImageView 
+						    android:layout_height="wrap_content"
+							android:src="@drawable/cananl" 
+							android:layout_width="wrap_content">
+						</ImageView>
+	
+						<TextView android:layout_width="wrap_content"
+							android:layout_height="wrap_content" 
+							android:textColor="#FFFFFF"
+							android:textStyle="bold" 
+							android:textSize="13dp" 
+							android:text="主界面">
+						</TextView>
+					</LinearLayout>
+				
+			</LinearLayout>
+		</RelativeLayout>  
+</LinearLayout>

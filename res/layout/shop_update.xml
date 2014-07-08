@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:background="@drawable/bg_title_bar"
+        android:gravity="center_vertical" >
+
+   
+
+        <TextView
+            android:id="@+id/title_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:paddingLeft="25.0dip"
+            android:paddingRight="25.0dip"
+            android:singleLine="true"
+            android:text="店铺管理"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/title_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="18.0dp"
+            android:singleLine="true"
+            android:text="保存"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20.0dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="店铺名称:"
+            android:textColor="#90000000"
+            android:textSize="18.0sp" />
+
+        <EditText
+            android:id="@+id/edit_biaoti"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/login_editbox"
+            android:inputType="text"
+            android:paddingLeft="5.0dip"
+            android:saveEnabled="true"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="店铺公告:"
+            android:textColor="#90000000"
+            android:textSize="18.0sp" />
+
+        <EditText
+            android:id="@+id/edit_gonggao"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/login_editbox"
+            android:gravity="left"
+            android:minHeight="80.0dp"
+            android:paddingLeft="5.0dip"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="店家寄语:"
+            android:textColor="#90000000"
+            android:textSize="18.0sp" />
+
+        <EditText
+            android:id="@+id/edit_miaoshu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/login_editbox"
+            android:gravity="left"
+            android:minHeight="100.0dp"
+            android:minLines="2"
+            android:paddingLeft="5.0dip"
+            android:saveEnabled="true"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>

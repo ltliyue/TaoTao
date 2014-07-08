@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dip"
+    android:layout_height="fill_parent"
+    android:layout_alignParentRight="true"
+    android:layout_gravity="right" >
+
+    <LinearLayout
+        android:layout_width="200dip"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="200dip"
+            android:layout_height="28.0dip"
+            android:background="#ff313131"
+            android:gravity="center_vertical"
+            android:paddingLeft="15.0dip"
+            android:text="右侧分类"
+            android:textColor="#ff959595"
+            android:textSize="14.0sp" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:clickable="true"
+            android:drawablePadding="1.0dip"
+            android:gravity="center_vertical"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="10.0dip"
+            android:text="右侧边栏选项－1"
+            android:textColor="#ff959595"
+            android:textSize="16.0sp" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:clickable="true"
+            android:drawablePadding="1.0dip"
+            android:gravity="center_vertical"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="10.0dip"
+            android:text="右侧边栏选项－2"
+            android:textColor="#ff959595"
+            android:textSize="16.0sp" />
+    </LinearLayout>
+
+</RelativeLayout>

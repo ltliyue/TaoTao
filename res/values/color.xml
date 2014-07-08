@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <color name ="bright_foreground_dark">#ffc8c8c8</color>
+     <color name ="bright_foreground_dark_disable">#000000</color>
+     <color name ="dim_foreground_dark">#ffbebebe</color>
+     <color name ="dim_foreground_dark_disable">#80bebebe</color>
+     <color name ="hint_foreground_dark">#ff808080</color>
+     <color name ="dim_foreground_light">#ff323232</color>
+     <color name ="bright_foreground_light">#ff000000</color>
+     <color name ="status_bar_text">#ffffffff</color>
+     <color name ="status_bar_clock_text">#ffbebebe</color>
+     <color name ="status_bar_event_primary_text">#ffffffff</color>
+     <color name ="status_bar_event_secondary_text">#ffb6cad6</color>
+     <color name ="sub_text_color">#ffb6cad6</color>
+     <color name="black">#000000</color>  
+     <color name="white">#FFFFFF</color> 
+     <color name="blue">#ff00ff</color>
+     <color name="orange">#FF7F00</color>
+     
+</resources>
