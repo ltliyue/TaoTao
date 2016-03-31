@@ -16,7 +16,6 @@ public final class R {
 		public static final int drop_down_list_footer_font_color = 0x7f040002;
 		public static final int drop_down_list_header_font_color = 0x7f040000;
 		public static final int drop_down_list_header_second_font_color = 0x7f040001;
-		public static final int white = 0x7f040003;
 	}
 	public static final class dimen {
 		public static final int drop_down_list_footer_button_height = 0x7f050006;

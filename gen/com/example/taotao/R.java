@@ -45,14 +45,14 @@ containing a value of this type.
         public static final int isOnBottomStyle=0x7f010001;
     }
     public static final class color {
-        public static final int black=0x7f040010;
+        public static final int black=0x7f04000f;
         public static final int blue=0x7f040011;
-        public static final int bright_foreground_dark=0x7f040004;
-        public static final int bright_foreground_dark_disable=0x7f040005;
-        public static final int bright_foreground_light=0x7f04000a;
-        public static final int dim_foreground_dark=0x7f040006;
-        public static final int dim_foreground_dark_disable=0x7f040007;
-        public static final int dim_foreground_light=0x7f040009;
+        public static final int bright_foreground_dark=0x7f040003;
+        public static final int bright_foreground_dark_disable=0x7f040004;
+        public static final int bright_foreground_light=0x7f040009;
+        public static final int dim_foreground_dark=0x7f040005;
+        public static final int dim_foreground_dark_disable=0x7f040006;
+        public static final int dim_foreground_light=0x7f040008;
         /**  drop down list footer font color 
          */
         public static final int drop_down_list_footer_font_color=0x7f040002;
@@ -62,14 +62,14 @@ containing a value of this type.
         /**  drop down list header second font color 
          */
         public static final int drop_down_list_header_second_font_color=0x7f040001;
-        public static final int hint_foreground_dark=0x7f040008;
+        public static final int hint_foreground_dark=0x7f040007;
         public static final int orange=0x7f040012;
-        public static final int status_bar_clock_text=0x7f04000c;
-        public static final int status_bar_event_primary_text=0x7f04000d;
-        public static final int status_bar_event_secondary_text=0x7f04000e;
-        public static final int status_bar_text=0x7f04000b;
-        public static final int sub_text_color=0x7f04000f;
-        public static final int white=0x7f040003;
+        public static final int status_bar_clock_text=0x7f04000b;
+        public static final int status_bar_event_primary_text=0x7f04000c;
+        public static final int status_bar_event_secondary_text=0x7f04000d;
+        public static final int status_bar_text=0x7f04000a;
+        public static final int sub_text_color=0x7f04000e;
+        public static final int white=0x7f040010;
     }
     public static final class dimen {
         public static final int drop_down_list_footer_button_height=0x7f050006;
